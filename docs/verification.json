@@ -1,0 +1,18 @@
+{
+  "version": "1.2.0",
+  "date": "2026-10-25",
+  "automated_tests": {
+    "passed": 36,
+    "failed": 0,
+    "browser_downloads_api": "mocked"
+  },
+  "static_checks": "passed",
+  "runtime_matches_user_zip": true,
+  "package_verification": "ZIP integrity and per-file SHA-256 checked by scripts/package.py",
+  "not_verified": [
+    "1.2.0 installed Chrome native save flow",
+    "1.2.0 installed Edge flow",
+    "live NTU NOW"
+  ],
+  "historical_evidence": "See COMPATIBILITY.md; prior browser checks belong to 1.1.0."
+}

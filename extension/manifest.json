@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "课件拾取 · Course Material Helper",
+  "version": "1.2.0",
+  "description": "一键提取课程页面中的课件，复制链接或直接下载。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "提取本页课件"
+  },
+  "minimum_chrome_version": "96"
+}

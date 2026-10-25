@@ -1,0 +1,28 @@
+// Dynamic interface copy. Static text lives in popup.html.
+export const messages = {
+  scanning: '正在扫描…',
+  found: count => `找到 ${count} 个文件`,
+  empty: '没找到文件。先打开附件预览，再点「重新扫描」。',
+  restricted: '请在课程网页中使用。',
+  scanFailed: '无法读取此页，请刷新后重试。',
+  unavailable: '请从浏览器工具栏打开扩展。',
+  copied: '链接已复制',
+  copyFailed: '复制失败，请允许剪贴板权限',
+  download: '下载',
+  copy: '复制链接',
+  signed: '临时链接',
+  queued: '已开始下载',
+  starting: '准备下载…',
+  startFailed: '下载未开始，请重试',
+  statusUnknown: '已开始下载，进度请看浏览器下载记录',
+  complete: '下载完成',
+  emptyFile: '文件为空，请重新打开附件后再试',
+  unexpectedContent: '下载的不是文件，可能需要重新登录',
+  interrupted: '下载中断，请重试',
+  cancelled: '已取消',
+  blocked: '已被浏览器拦截，请查看下载记录',
+  paused: '已暂停',
+  progress: percent => `下载中 ${percent}%`,
+  partial: '部分内容无法读取。',
+  limited: '结果可能不完整。'
+};
